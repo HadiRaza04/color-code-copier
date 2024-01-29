@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: #6101af;
+    color: white;
+    font-weight: 800;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+}
+.container {
+    width: 100%;
+    height: calc(100vh - 100px);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow: scroll;
+}
+.container>div {
+    width: 250px;
+    height: 120px;
+    background-color: blue;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.container>div:hover {
+    scale: 1.05;
+    transition: all 1s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+@media screen and (max-width: 768px) {
+    .container>div {
+        width: 170px;
+        height: 60px;
+        font-size: 18px
+    }
+}
+@media screen and (max-width: 530px) {
+    .container>div {
+        width: 120px;
+        height: 50px;
+        font-size: 18px
+    }
+}
+#black {
+    background-color: #000000;
+    color: azure;
+}
+#white {
+    background-color: #ffffff;
+}
+#red {
+    background-color: #ff0000;
+    color: azure;
+}
+#blue {
+    background-color: #0000ff;
+    color: azure;
+}
+#lime {
+    background-color: #00ff00;
+}
+#aqua {
+    background-color: #00ffff;
+}
+#olive {
+    background-color: #808000;
+    color: azure;
+}
+#brown {
+    background-color: #A52A2A;
+    color: azure;
+}
+#fuchsia {
+    background-color: #ff00ff;
+}
+#maroon {
+    background-color: #800000;
+    color: azure;
+}
+#teal {
+    background-color: #008080;
+    color: azure;
+}
+#violet {
+    background-color: #ee82ee;
+}
+#indigo {
+    background-color: #4b0082;
+    color: azure;
+}
+#yellowgreen {
+    background-color: #9acd32;
+}
+#greenyellow {
+    background-color: #adff2f;
+}
+#gray {
+    background-color: #808080;
+}
+#navy {
+    background-color: #000080;
+    color: azure;
+}
+#silver {
+    background-color: #c0c0c0;
+}
+#ivory {
+    background-color: #fffff0;
+}
+#yellow {
+    background-color: #ffff00;
+}
+#gold {
+    background-color: #ffd700;
+}
+#pink {
+    background-color: #ffc0cb;
+}
+#orange {
+    background-color: #ffa500;
+}
+#tomato {
+    background-color: #ff6347;
+}
+#wheat {
+    background-color: #e7d8bb;
+}
