@@ -1,6 +1,6 @@
 # <a href="https://hadiraza04.github.io/color-code-copier/">Color Code Picker</a>
 
-[Project Image](./colorCode-copier.png)
+![Project Image](./colorCode-copier.png)
 
 ## Project Overview
 
